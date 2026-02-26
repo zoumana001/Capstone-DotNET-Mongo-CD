@@ -30,7 +30,7 @@ spec:
       serviceAccountName: noteapp-sa
       containers:
         - name: dotnet-noteapp
-          image: zoum44/noteapp:$IMAGE_TAG
+          image: zoum44/noteapp:v6
           ports:
             - containerPort: 5050
           env:
