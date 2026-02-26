@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: www.adityajaiswal.com
+    - host: www.zoumanas.com
       http:
         paths:
           - path: /
@@ -20,7 +20,7 @@ spec:
                 name: dotnet-noteapp
                 port:
                   number: 80
-    - host: adityajaiswal.com
+    - host: zoumanas.com
       http:
         paths:
           - path: /
@@ -32,6 +32,6 @@ spec:
                   number: 80
   tls:
     - hosts:
-        - www.adityajaiswal.com
-        - adityajaiswal.com
+        - www.zoumanas.com
+        - zoumanas.com
       secretName: adityajaiswal-co-tls
